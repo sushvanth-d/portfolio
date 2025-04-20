@@ -1,0 +1,135 @@
+.about-container{
+    background-color: #2A8381;
+    padding: 6% 8%;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-heading{
+    color: #37364B;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.about-heading #head-icon{
+    font-size: 40px;
+}
+
+.about-heading h2{
+    font-size: 50px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.about-details{
+    display: inline-flex;
+    gap: 10%;
+    width: 100%;
+    gap: 15px;
+}
+
+.about-privacy{
+    display: flex;
+    flex-direction: column;
+    flex: 1.8;
+}
+
+.about-privacy #about-img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+.about-privacy #privacy-imp p{
+    margin-bottom: 25px;
+}
+
+.about-privacy #privacy-imp p span{
+    font-size: 20px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 500;
+    display:inline;
+    color: #D3E6E5;
+    background-color: #37364B;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+
+.about-details .about-info{
+    display: flex;
+    flex-direction: column;
+    color: #D3E6E5;
+    flex: 3;
+}
+
+.about-info #sub-heading{
+    margin: 10px 0;
+}
+
+.about-info #sub-heading h3{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 48px;
+    margin: 5px 0;
+}
+
+.about-info #sub-heading p{
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Noto Sans", sans-serif;
+}
+
+#info-details p{
+    font-size: 20px;
+    margin: 20px 0;
+    font-family: "Gabarito", sans-serif;
+}
+
+
+/*  Responsive  */
+
+@media(max-width:480px){
+    .about-heading{
+        gap: 15px;
+    }
+
+    .about-heading #head-icon{
+        font-size: 25px;
+    }
+
+    .about-heading h2{
+        font-size: 35px;
+    }
+
+    .about-details{
+        flex-direction: column-reverse;
+    }
+
+    .about-info #sub-heading h3{
+        font-size: 28px;
+    }
+
+    .about-info #sub-heading p{
+        font-size: 17px;
+    }
+
+    #info-details p{
+        font-size: 16px;
+    }
+
+    .about-privacy #privacy-imp p span{
+        font-size: 15px;
+    }
+
+    .about-privacy #about-img img{
+        height: 200px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,219 @@
+.navbar-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    background-color: #2A8381;
+    margin: 0;
+    height: max-content;
+}
+
+.my-sign{
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.my-sign h3{
+    font-family: 'Caveat', cursive;
+    font-size:large;
+    color: #D3E6E5;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 10px;
+}
+
+.navigation-loc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 0 10px;
+}
+
+.navigation-loc ul{
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 10px;
+}
+
+.navigation-loc ul li{
+    list-style: none;
+}
+
+.navigation-loc a{
+    all: unset;
+    cursor: pointer;
+
+}
+
+.navigation-loc a p{
+    padding: 10px;
+    border-radius: 10px;
+    transition: color 0.4s;
+    margin: 0;
+}
+
+
+.navigation-loc a p:hover{
+    color: #37364B;
+    background-color: #398c8a;
+}
+
+.navigation-loc .NavInHam{
+    display: none;
+}
+
+
+.navigation-loc p{
+    font-family: "Noto Sans", sans-serif;
+    font-weight:700;
+    font-size: 20px;
+    color: #D3E6E5;
+}
+
+
+
+
+/* Responsive */
+
+@media(max-width:1200px){
+    .navigation-loc ul li a p{
+        font-size: 18px;
+    }
+
+    .navigation-loc ul{
+        gap: 15px;
+    }
+}
+
+
+@media(max-width:992px){
+
+    .navbar-div{
+        padding: 10px;
+    }
+
+
+    .my-sign h3{
+        font-size: 19px;
+        padding: 0;
+    }
+
+    .navigation-loc{
+        gap: 5px;
+    }
+
+    .navigation-loc ul{
+        gap: 10px;
+        padding: 0;
+    }
+
+    .navigation-loc ul li a p{
+        font-size: 16px;
+        padding: 10px 5px;
+    }
+
+    
+}
+
+
+
+
+@media(max-width:768px){
+    navbar-div{
+        width: 100%;
+    }
+
+
+    .navigation-loc ul {
+        position: absolute;
+        top: 45px;
+        right: 10px;
+        flex-direction: column;
+        background-color: #2A8381;
+        padding: 20px;
+        border-radius: 10px;
+        padding-right: 60px;
+        width: max-content;
+        
+        /* Hidden by default */
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s;
+      }
+   
+
+    .navigation-loc ul.open {
+        max-height: 500px; /* enough height to show all items */
+        opacity: 1;
+        visibility: visible;
+      }
+
+
+      .navigation-loc ul.closing {
+        max-height: 0;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+
+    .navigation-loc .NavInHam{
+        font-size: 35px;
+        display: block;
+        color: #37364B;
+        cursor: pointer;
+    }
+}
+
+/* 
+
+@media(max-width:576px){
+    navbar-div{
+        width: 100%;
+    }
+
+
+    .navigation-loc ul {
+        position: absolute;
+        top: 45px;
+        right: 10px;
+        flex-direction: column;
+        background-color: #2A8381;
+        padding: 20px;
+        border-radius: 10px;
+        padding-right: 60px;
+        width: max-content;
+        
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s;
+      }
+   
+
+    .navigation-loc ul.open {
+        max-height: 500px; 
+        opacity: 1;
+        visibility: visible;
+      }
+
+
+      .navigation-loc ul.closing {
+        max-height: 0;
+        opacity: 0;
+        visibility: hidden;
+      }
+
+
+    .navigation-loc .NavInHam{
+        font-size: 35px;
+        display: block;
+        color: #37364B;
+        cursor: pointer;
+    }
+} */

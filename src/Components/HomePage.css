@@ -1,0 +1,301 @@
+
+.home-page{
+    background-color: #37364B;
+    padding: 7% 8%;
+}
+
+.homepage-Container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.homepage-content h1{
+    color: #D3E6E5;
+    font-family: "Gabarito", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0;
+}
+
+.homepage-content p{
+    font-family: "Crimson Pro", serif;
+    font-size: 28px;
+    color: #D3E6E5;
+    margin: 0;
+}
+
+
+.but-icons{
+    margin: 80px 0 20px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.but-icons a{
+    all: unset;
+}
+
+.homepage-content button{
+    background-color: #2A8381;
+    color: #D3E6E5;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.homepage-content button:hover{
+    transform: scale(1.07);
+}
+
+.arrow-icon{
+    background-color: #D3E6E5;
+    color: #37364B;
+    border-radius: 50%;
+    background-size: 10px;
+    height: 22px;
+    width: 22px;
+}
+
+.links-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.links-icons a{
+    all: unset;
+    cursor: pointer;
+}
+
+
+.icon-space{
+    background-color: #D3E6E5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.icon-space:hover{
+    transform: scale(1.1);
+}
+
+.follow-icon{
+    font-size: 35px;
+}
+
+
+.my-image img{
+    width: 360px;
+    height: 380px;
+    border-radius: 50%;
+    border: solid 5px #D3E6E5;
+}
+
+
+/*  Responsive  */
+
+@media(max-width:1200px){
+
+    .homepage-content h1{
+        font-size: 45px;
+    }
+
+    .homepage-content p{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .but-icons{
+        margin: 80px 0 0px;
+    }
+
+    .homepage-content button{
+        font-size: 15px;
+
+    }
+
+    .arrow-icon{
+        height: 17px;
+        width: 17px;
+    }
+
+    .icon-space{
+        height: 40px;
+        width: 40px;
+    }
+
+    .follow-icon{
+        font-size: 29px;
+    }
+
+    .my-image img{
+        width: 280px;
+        height: 300px;
+    }
+
+}
+
+
+
+
+@media(max-width:992px){
+
+    .homepage-content h1{
+        font-size: 35px;
+    }
+
+    .homepage-content p{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .but-icons{
+        margin: 50px 0 0px;
+    }
+
+    .homepage-content button{
+        font-size: 14px;
+
+    }
+
+    .arrow-icon{
+        height: 16px;
+        width: 16px;
+    }
+
+    .icon-space{
+        height: 35px;
+        width: 35px;
+    }
+
+    .follow-icon{
+        font-size: 27px;
+    }
+
+    .my-image img{
+        width: 200px;
+        height: 220px;
+    }
+}
+
+
+
+
+@media(max-width:768px){
+
+    .homepage-content h1{
+        font-size: 35px;
+    }
+
+    .homepage-content p{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .but-icons{
+        margin: 50px 0 0px;
+    }
+
+    .homepage-content button{
+        font-size: 14px;
+
+    }
+
+    .arrow-icon{
+        height: 16px;
+        width: 16px;
+    }
+
+    .icon-space{
+        height: 35px;
+        width: 35px;
+    }
+
+    .follow-icon{
+        font-size: 27px;
+    }
+
+    .my-image img{
+        width: 200px;
+        height: 220px;
+    }
+}
+
+
+
+@media(max-width:480px){
+
+    .home-page{
+        padding: 10%;
+    }
+
+    .homepage-Container{
+        flex-direction: column-reverse;
+        gap: 30px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .homepage-content h1{
+        font-size: 30px;
+    }
+
+    .homepage-content p{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .but-icons{
+        margin: 50px 0 0px;
+    }
+
+    .homepage-content button{
+        font-size: 14px;
+
+    }
+
+    .arrow-icon{
+        height: 16px;
+        width: 16px;
+    }
+
+    .links-icons{
+        gap: 15px;
+    }
+
+    .icon-space{
+        height: 35px;
+        width: 35px;
+    }
+
+    .follow-icon{
+        font-size: 27px;
+    }
+
+    .my-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-image img{
+        width: 200px;
+        height: 210px;
+    }
+}

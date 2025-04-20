@@ -1,0 +1,126 @@
+.eduContainer{
+    padding: 7% 8% 10%;
+    background-color: #187977;
+}
+
+.eduContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.eduHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.eduHead .eduIcon{
+    font-size: 50px;
+    color: #37364B;
+}
+
+.eduHead h3{
+    font-size: 50px;
+    color: #37364B;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.eduInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.eduInfo .eduSet{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    background-color: #37364B;
+    border-radius: 20px;
+    transition: 0.7s ease;
+}
+
+.eduInfo .eduSet:hover{
+    background-color: #D3E6E5;
+    border: 2px solid #37364B;
+}
+
+.eduInfo .eduSet:hover .eduImg img{
+    border: 2px solid #37364B;
+}
+
+
+.eduInfo .eduSet:hover  .eduDetails h3,.eduInfo .eduSet:hover .eduDetails h5{
+    color: #37364B;
+}
+
+
+.eduInfo .eduSet .eduImg img{
+    width: 100px;
+    height: 100px;
+    transition: 0.4s ease;
+}
+
+.eduInfo .eduSet .eduDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.eduInfo .eduSet .eduDetails h3{
+    font-size: 29px;
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    color: #D3E6E5;
+    font-weight: 700;
+    transition: 0.7s ease;
+}
+
+.eduInfo .eduSet .eduDetails h5{
+    font-size: 24px;
+    margin: 0;
+    font-family: "Noto Sans", sans-serif;
+    color: #D3E6E5;
+    font-weight: 700;
+    transition: 0.7s ease;
+}
+
+
+
+/*  Responsive  */
+
+@media(max-width:480px){
+
+    .eduHead .eduIcon{
+        font-size: 30px;
+    }
+
+    .eduHead h3{
+        font-size: 38px;
+    }
+
+    .eduInfo .eduSet{
+        gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .eduInfo .eduSet .eduImg img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .eduInfo .eduSet .eduDetails h3{
+        font-size: 23px;
+    }
+
+    .eduInfo .eduSet .eduDetails h5{
+        font-size: 18px;
+    }
+}
