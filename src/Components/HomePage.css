@@ -136,12 +136,12 @@
     }
 
     .icon-space{
-        height: 40px;
-        width: 40px;
+        height: 42px;
+        width: 42px;
     }
 
     .follow-icon{
-        font-size: 29px;
+        font-size: 32px;
     }
 
     .my-image img{
@@ -180,12 +180,12 @@
     }
 
     .icon-space{
-        height: 35px;
-        width: 35px;
+        height: 40px;
+        width: 40px;
     }
 
     .follow-icon{
-        font-size: 27px;
+        font-size: 30px;
     }
 
     .my-image img{
@@ -199,12 +199,30 @@
 
 @media(max-width:768px){
 
+    .home-page{
+        padding: 10% 10% 15%;
+    }
+
+    .homepage-Container{
+        flex-direction: column-reverse;
+        gap: 30px;
+        justify-content: center;
+        align-content: center;
+    }
+
+    
+    .my-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .homepage-content h1{
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .homepage-content p{
-        font-size: 25px;
+        font-size: 27px;
         margin-top: 10px;
     }
 
@@ -213,7 +231,50 @@
     }
 
     .homepage-content button{
-        font-size: 14px;
+        font-size: 17px;
+
+    }
+
+    .arrow-icon{
+        height: 17px;
+        width: 17px;
+    }
+
+    .icon-space{
+        height: 40px;
+        width: 40px;
+    }
+
+    .follow-icon{
+        font-size: 31px;
+    }
+
+    .my-image img{
+        width: 220px;
+        height: 230px;
+    }
+}
+
+
+
+@media(max-width:576px){
+
+    .home-page{
+        padding: 10% 10% 15%;
+    }
+
+
+    .homepage-content h1{
+        font-size: 33px;
+    }
+
+    .homepage-content p{
+        font-size: 22px;
+    }
+
+
+    .homepage-content button{
+        font-size: 16px;
 
     }
 
@@ -222,27 +283,31 @@
         width: 16px;
     }
 
+    .links-icons{
+        gap: 15px;
+    }
+
     .icon-space{
-        height: 35px;
-        width: 35px;
+        height: 40px;
+        width: 40px;
     }
 
     .follow-icon{
-        font-size: 27px;
+        font-size: 30px;
     }
 
+    
     .my-image img{
         width: 200px;
-        height: 220px;
+        height: 210px;
     }
 }
-
 
 
 @media(max-width:480px){
 
     .home-page{
-        padding: 10%;
+        padding: 10% 10% 15%;
     }
 
     .homepage-Container{
@@ -253,16 +318,18 @@
     }
 
     .homepage-content h1{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .homepage-content p{
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 10px;
     }
 
     .but-icons{
         margin: 50px 0 0px;
+        justify-content: center;
+        align-items: center;
     }
 
     .homepage-content button{

@@ -18,11 +18,39 @@
 
 /*  Responsive  */
 
+
+@media(max-width:992px){
+    
+    .footer h2{
+        padding: 10px;
+        margin: 5px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:768px){
+    
+    .footer h2{
+        padding: 10px;
+        margin: 5px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width:576px){
+    
+    .footer h2{
+        padding: 10px;
+        margin: 5px;
+        font-size: 10px;
+    }
+}
+
 @media(max-width:480px){
     
 .footer h2{
     padding: 10px;
     margin: 5px;
     font-size: 10px;
-}
+    }
 }

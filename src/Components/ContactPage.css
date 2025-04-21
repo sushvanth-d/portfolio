@@ -173,15 +173,189 @@ gap: 50px;
 
 /*  Responsive  */
 
-@media(max-width:480px){
+
+@media(max-width:1200px){
     .contContent{
-    margin: 7% 5%;
+    margin: 10% 15% 15%;
     padding: 5%;
     gap: 50px;
     }
 
     .contContent .contHead .headIcon{
-        font-size: 32px;
+        font-size: 41px;
+    }
+
+    .contContent .contHead h2{
+        font-size: 45px;
+    }
+
+    .contForm form{
+        gap: 30px;
+        padding: 20px;
+        
+    }
+
+    .contForm form h5{
+        font-size: 16px;
+    }
+
+    .inputBox label{
+        font-size: 16px;
+    }
+
+    .inputBox .field{
+        font-size: 16px;
+    }
+
+    .inputBox .fieldMess{
+        height: 200px;
+        font-size: 16px;
+    }
+
+    .contForm form button{
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .contLinks{
+        gap: 20px;
+        padding: 25px 0;
+    }
+
+    .contLinks p{
+        font-size: 16px;
+    }
+
+    .contLast h2{
+        font-size: 38px;
+    }
+}
+
+
+@media(max-width:992px){
+    .contContent{
+    margin: 10% 13% 15%;
+    padding: 5%;
+    gap: 40px;
+    }
+
+    .contContent .contHead .headIcon{
+        font-size: 39px;
+    }
+
+    .contContent .contHead h2{
+        font-size: 42px;
+    }
+
+    .contForm form{
+        gap: 20px;
+        padding: 20px;
+        
+    }
+
+    .contForm form h5{
+        font-size: 16px;
+    }
+
+    .inputBox label{
+        font-size: 16px;
+    }
+
+    .inputBox .field{
+        font-size: 15px;
+    }
+
+    .inputBox .fieldMess{
+        height: 200px;
+        font-size: 15px;
+    }
+
+    .contForm form button{
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .contLinks{
+        gap: 18px;
+        padding: 25px 0;
+    }
+
+    .contLinks p{
+        font-size: 15px;
+    }
+
+    .contLast h2{
+        font-size: 37px;
+    }
+}
+
+
+@media(max-width:768px){
+    .contContent{
+    margin: 10% 10% 15%;
+    padding: 5%;
+    gap: 35px;
+    }
+
+    .contContent .contHead .headIcon{
+        font-size: 34px;
+    }
+
+    .contContent .contHead h2{
+        font-size: 39px;
+    }
+
+    .contForm form{
+        gap: 19px;
+        padding: 20px;
+        
+    }
+
+    .contForm form h5{
+        font-size: 13px;
+    }
+
+    .inputBox label{
+        font-size: 15px;
+    }
+
+    .inputBox .field{
+        font-size: 14px;
+    }
+
+    .inputBox .fieldMess{
+        height: 170px;
+        font-size: 14px;
+    }
+
+    .contForm form button{
+        font-size: 15px;
+        padding: 13px;
+    }
+
+    .contLinks{
+        gap: 17px;
+        padding: 25px 0;
+    }
+
+    .contLinks p{
+        font-size: 13px;
+    }
+
+    .contLast h2{
+        font-size: 34px;
+    }
+}
+
+@media(max-width:576px){
+    .contContent{
+    margin: 10% 10% 15%;
+    padding: 5%;
+    gap: 30px;
+    }
+
+    .contContent .contHead .headIcon{
+        font-size: 31px;
     }
 
     .contContent .contHead h2{
@@ -189,7 +363,7 @@ gap: 50px;
     }
 
     .contForm form{
-        gap: 30px;
+        gap: 17px;
         padding: 20px;
         
     }
@@ -204,12 +378,72 @@ gap: 50px;
 
     .inputBox .field{
         padding: 8px;
-        margin-top: 10px;
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .inputBox .fieldMess{
+        height: 160px;
+        font-size: 14px;
+    }
+
+    .contForm form button{
+        font-size: 14px;
+        padding: 13px;
+    }
+
+    .contLinks{
+        gap: 15px;
+        padding: 25px 0;
+    }
+
+    .contLinks p{
+        font-size: 10px;
+    }
+
+    .contLast h2{
+        font-size: 32px;
+    }
+}
+
+
+@media(max-width:480px){
+    .contContent{
+    margin: 10% 10% 15%;
+    padding: 5%;
+    gap: 30px;
+    }
+
+    .contContent .contHead .headIcon{
+        font-size: 26px;
+    }
+
+    .contContent .contHead h2{
+        font-size: 32px;
+    }
+
+    .contForm form{
+        gap: 15px;
+        padding: 20px;
+        
+    }
+
+    .contForm form h5{
+        font-size: 8.5px;
+    }
+
+    .inputBox label{
+        font-size: 13px;
+    }
+
+    .inputBox .field{
+        padding: 8px;
+        margin-top: 8px;
         font-size: 13px;
     }
 
     .inputBox .fieldMess{
-        height: 200px;
+        height: 160px;
         font-size: 13px;
     }
 
@@ -219,15 +453,15 @@ gap: 50px;
     }
 
     .contLinks{
-        gap: 13px;
+        gap: 11px;
         padding: 25px 0;
     }
 
     .contLinks p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .contLast h2{
-        font-size: 35px;
+        font-size: 30px;
     }
 }

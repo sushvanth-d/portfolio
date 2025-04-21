@@ -39,7 +39,7 @@
 .eduInfo .eduSet{
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 50px;
     padding: 30px;
     background-color: #37364B;
     border-radius: 20px;
@@ -95,14 +95,129 @@
 
 /*  Responsive  */
 
-@media(max-width:480px){
+
+@media(max-width:1200px){
+
+    .eduContainer{
+        padding: 10% 8% 15%;
+    }
+
+    .eduHead .eduIcon{
+        font-size: 35px;
+    }
+
+    .eduHead h3{
+        font-size: 46px;
+    }
+
+
+    .eduInfo .eduSet .eduImg img{
+        width: 85px;
+        height: 85px;
+    }
+
+    .eduDetails{
+        width: 100%;
+    }
+
+    .eduInfo .eduSet .eduDetails h3{
+        font-size: 27px;
+    }
+
+    .eduInfo .eduSet .eduDetails h5{
+        font-size: 21px;
+    }
+}
+
+
+@media(max-width:992px){
+
+    .eduContainer{
+        padding: 10% 8% 15%;
+    }
+
+    .eduHead .eduIcon{
+        font-size: 35px;
+    }
+
+    .eduHead h3{
+        font-size: 42px;
+    }
+
+
+    .eduInfo .eduSet{
+        gap: 50px;
+    }
+    .eduInfo .eduSet .eduImg img{
+        width: 85px;
+        height: 85px;
+    }
+
+    .eduDetails{
+        width: 100%;
+    }
+
+    .eduInfo .eduSet .eduDetails h3{
+        font-size: 23px;
+    }
+
+    .eduInfo .eduSet .eduDetails h5{
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width:768px){
+
+    .eduContainer{
+        padding: 10% 8% 15%;
+    }
+
+    .eduHead .eduIcon{
+        font-size: 35px;
+    }
+
+    .eduHead h3{
+        font-size: 39px;
+    }
+
+    .eduInfo .eduSet{
+        gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .eduInfo .eduSet .eduImg img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .eduDetails{
+        width: 100%;
+    }
+
+    .eduInfo .eduSet .eduDetails h3{
+        font-size: 22px;
+    }
+
+    .eduInfo .eduSet .eduDetails h5{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width:576px){
+
+    .eduContainer{
+        padding: 10% 10% 15%;
+    }
 
     .eduHead .eduIcon{
         font-size: 30px;
     }
 
     .eduHead h3{
-        font-size: 38px;
+        font-size: 35px;
     }
 
     .eduInfo .eduSet{
@@ -117,10 +232,45 @@
     }
 
     .eduInfo .eduSet .eduDetails h3{
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .eduInfo .eduSet .eduDetails h5{
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width:480px){
+
+    .eduContainer{
+        padding: 10% 10% 15%;
+    }
+
+    .eduHead .eduIcon{
+        font-size: 30px;
+    }
+
+    .eduHead h3{
+        font-size: 35px;
+    }
+
+    .eduInfo .eduSet{
+        gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .eduInfo .eduSet .eduImg img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .eduInfo .eduSet .eduDetails h3{
         font-size: 18px;
+    }
+
+    .eduInfo .eduSet .eduDetails h5{
+        font-size: 14px;
     }
 }

@@ -61,7 +61,7 @@
 
 .certificateSet .certDetails h3{
     margin: 0;
-    font-size: 29px;
+    font-size: 28px;
     color: #D3E6E5;
     font-family: "Noto Sans", sans-serif;
 }
@@ -76,7 +76,7 @@
 
 .certificateSet .certDetails h5{
     margin: 0;
-    font-size: 21px;
+    font-size: 20px;
     color: #D3E6E5;
     font-family: "Noto Sans", sans-serif;
     font-weight: 400;
@@ -86,7 +86,162 @@
 
 /*  Responsive  */
 
+
+@media(max-width:1200px){
+
+    .certificateContainer{
+        padding: 8% 9% 13%;
+    }
+
+    .certiHead .certHeadIcon{
+        font-size: 39px;
+    }
+
+    .certiHead{
+        gap: 15px;
+    }
+
+    .certiHead h3{
+        font-size: 45px;
+    }
+
+    .certificateSet{
+        gap: 25px;
+        padding: 15px;
+    }
+
+    .certificateSet .certDetails h3{
+        font-size: 26px;
+    }
+
+    .certificateSet .certDetails p{
+        font-size: 15px;
+    }
+
+    .certificateSet .certDetails h5{
+        font-size: 18px;
+    }
+}
+
+
+@media(max-width:992px){
+
+    .certificateContainer{
+        padding: 10% 9% 15%;
+    }
+
+    .certiHead .certHeadIcon{
+        font-size: 37px;
+    }
+
+    .certiHead{
+        gap: 15px;
+    }
+
+    .certiHead h3{
+        font-size: 42px;
+    }
+
+    .certificateSet{
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .certificateSet .certDetails h3{
+        font-size: 24px;
+    }
+
+    .certificateSet .certDetails p{
+        font-size: 15px;
+    }
+
+    .certificateSet .certDetails h5{
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width:768px){
+
+    .certificateContainer{
+        padding: 10% 9% 15%;
+    }
+
+    .certiHead .certHeadIcon{
+        font-size: 33px;
+    }
+
+    .certiHead{
+        gap: 10px;
+    }
+
+    .certiHead h3{
+        font-size: 40px;
+    }
+
+    .certificateSet{
+        gap: 20px;
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .certificateSet .certDetails h3{
+        font-size: 24px;
+    }
+
+    .certificateSet .certDetails p{
+        font-size: 15px;
+    }
+
+    .certificateSet .certDetails h5{
+        font-size: 17px;
+    }
+}
+
+
+@media(max-width:576px){
+
+    .certificateContainer{
+        padding: 10% 9% 15%;
+    }
+
+    .certiHead .certHeadIcon{
+        font-size: 30px;
+    }
+
+    .certiHead{
+        gap: 10px;
+    }
+
+    .certiHead h3{
+        font-size: 35px;
+    }
+
+    .certificateSet{
+        gap: 20px;
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .certificateSet .certDetails h3{
+        font-size: 23px;
+    }
+
+    .certificateSet .certDetails p{
+        font-size: 15px;
+    }
+
+    .certificateSet .certDetails h5{
+        font-size: 17px;
+    }
+}
+
+
 @media(max-width:480px){
+
+    .certificateContainer{
+        padding: 10% 7% 15%;
+    }
 
     .certiHead .certHeadIcon{
         font-size: 25px;
@@ -107,14 +262,14 @@
     }
 
     .certificateSet .certDetails h3{
-        font-size: 24px;
+        font-size: 21px;
     }
 
     .certificateSet .certDetails p{
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .certificateSet .certDetails h5{
-        font-size: 18px;
+        font-size: 15px;
     }
 }

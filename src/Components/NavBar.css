@@ -130,12 +130,12 @@
     .navigation-loc ul {
         position: absolute;
         top: 45px;
-        right: 10px;
+        right: 0px;
         flex-direction: column;
         background-color: #2A8381;
         padding: 20px;
         border-radius: 10px;
-        padding-right: 60px;
+        padding-right: 120px;
         width: max-content;
         
         /* Hidden by default */
@@ -169,46 +169,20 @@
     }
 }
 
-/* 
+
 
 @media(max-width:576px){
-    navbar-div{
-        width: 100%;
-    }
 
 
     .navigation-loc ul {
-        position: absolute;
-        top: 45px;
-        right: 10px;
-        flex-direction: column;
-        background-color: #2A8381;
-        padding: 20px;
-        border-radius: 10px;
-        padding-right: 60px;
-        width: max-content;
-        
-        max-height: 0;
-        overflow: hidden;
-        opacity: 0;
-        visibility: hidden;
-        transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s;
-      }
-   
-
-    .navigation-loc ul.open {
-        max-height: 500px; 
-        opacity: 1;
-        visibility: visible;
+        right: 0px;
+        padding-right: 80px;
       }
 
 
-      .navigation-loc ul.closing {
-        max-height: 0;
-        opacity: 0;
-        visibility: hidden;
+      .navigation-loc ul li a p{
+        font-size: 16px;
       }
-
 
     .navigation-loc .NavInHam{
         font-size: 35px;
@@ -216,4 +190,4 @@
         color: #37364B;
         cursor: pointer;
     }
-} */
+}
