@@ -7,7 +7,6 @@
   .cursor {
     display: inline-block;
     width: 1px;
-    background-color: #2A8381;
     margin-left: 2px;
     animation: blink 0.7s infinite;
   }
