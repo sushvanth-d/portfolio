@@ -7,8 +7,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import myImage from "../assets/Sushvanth.jpg";
 import "./HomePage.css";
+import { useEffect, useState } from "react";
+import TypingText from "./TypingText";
 
 function HomePage() {
+
   return (
     <div className="home-page" id="home">
       <div className="homepage-Container">
@@ -17,7 +20,7 @@ function HomePage() {
             Hi There, <br />
             I'm Sushvanth Dudgundi
           </h1>
-          <p>I'm into Web Development</p>
+          {<TypingText />}
           <div className="but-icons">
             <a href="#about">
               <button>
